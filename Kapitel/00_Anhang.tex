@@ -1,0 +1,19 @@
+%======================================================================	
+%	Anhang
+%======================================================================
+\phantomsection
+\appendix
+\markboth{Anhangsverzeichnis}{Anhangsverzeichnis}
+
+\clearpage
+% Anänge mit Nummern, statt Buchstaben
+\renewcommand*{\thechapter}{\arabic{chapter}}
+% Fußzeile deaktivieren
+\ofoot[]{}
+% Kopfzeile neu beschriften
+\ihead{\headmark}
+\ohead{Anhang \thechapter}
+
+\chapter{Einrichten des \acs{HTTP}- und \acs{HTTPS}-Servers (\textit{index.js})}
+\label{anh:proto_index}
+\inputminted{js}{Code/index.js}

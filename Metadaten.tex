@@ -1,0 +1,44 @@
+%======================================================================
+%	Metadaten
+%======================================================================
+% Thema
+\newcommand{\dcsubject}{Bachelorthesis} % evtl. Sperrvermerk und Eidesstattliche Erklärung anpassen
+\newcommand{\dctitle}{Bachelorthesis Vorlage BA Glauchau LaTeX}
+\newcommand{\dcdate}{20. August 2018}
+\newcommand{\dckeywords}{hello,world}
+
+% Autor
+\newcommand{\dcauthorlastname}{Nachname}
+\newcommand{\dcauthorfirstname}{Vorname}
+\newcommand{\dcauthoremail}{e@mail.de}
+\newcommand{\dcstreet}{Musterstraße, 17}
+\newcommand{\dcplace}{12345, Musterstadt}
+
+% BA
+\newcommand{\dcuni}{Staatliche Studienakademie Glauchau}
+\newcommand{\dccourse}{Technische Informatik}
+\newcommand{\dcfield}{Daten- und Kommunikationstechnik}
+\newcommand{\dcgroup}{Seminargr.}
+\newcommand{\dcmatnr}{Matrikelnr.}
+
+% Firma
+\newcommand{\dccompany}{Mustermann GmbH GmbH}
+\newcommand{\dccompanystr}{Musterstraße, 17}
+\newcommand{\dccompanycity}{12345, Musterstadt}
+
+% Betreuer
+\newcommand{\refereecompany}{Dipl.-Ing. Moritz Mustermann}
+\newcommand{\refereeuni}{Prof. Dr. Max Mustermann}
+
+%%======================================================================
+% Einstellungen des Hyperref-Paketes
+\hypersetup
+{
+	pdftitle	= {\dctitle},
+	pdfsubject	= {\dcsubject, \dcdate},
+	pdfauthor	= {\dcauthorfirstname~\dcauthorlastname, \dcauthoremail},
+	pdfkeywords	= {\dckeywords},
+	pdfcreator	= {pdfTeX with Hyperref and Thumbpdf},
+	pdfproducer	= {LaTeX, hyperref, thumbpdf}
+}
+%%======================================================================

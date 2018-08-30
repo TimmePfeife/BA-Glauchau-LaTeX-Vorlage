@@ -1,0 +1,38 @@
+\sffamily
+\chapter{Grundlagen}\label{cha:Grundlagen}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Webservice
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Hello}
+\blindtext
+
+% Aufzählungen in kompakterer Darstellung
+\begin{itemize*}
+	\item eins,
+	\item zwei,
+	\item drei,
+	\item usw.
+\end{itemize*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% REST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{World}
+\blindtext\footnote{online: \Citealp{Fielding.2008} (16.07.2018)}
+Mehr dazu in Tabelle \ref{tab:http_verben}.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|>{\centering}m{1.3cm}|>{\centering}m{1.3cm}|m{9.5cm}|}
+		\hline
+		\multicolumn{1}{|>{\centering}c|}{\cellcolor{black!10}\textbf{Methode}} &
+		\multicolumn{1}{>{\centering}m{1.3cm}|}{\cellcolor{black!10}\textbf{Si\-cher}} &
+		\multicolumn{1}{>{\centering}m{1.3cm}|}{\cellcolor{black!10}\textbf{Idem\-potent}}  &
+		\multicolumn{1}{>{\centering}m{9.5cm}|}{\cellcolor{black!10}\textbf{Beschreibung}} \\ \hline
+		GET & \textbf{x} & \textbf{x} & Empfangen von Informationen, die durch eine \ac{URI} identifiziert werden und in Form einer Repräsentation vorliegen. \\ \hline
+		HEAD & \textbf{x} & \textbf{x} & Liefern die Metadaten einer Ressource zurück. Müssen mit denen von GET übereinstimmen. \\ \hline
+	\end{tabular}
+	\caption{\acs{HTTP}-Standardmethoden}
+	\label{tab:http_verben}
+\end{table}
