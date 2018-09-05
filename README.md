@@ -5,6 +5,8 @@ Diese Vorlage ist nicht perfekt. An manchen Stellen können neuere LaTeX-Pakete 
 
 Wer Verbesserungsvorschlöge ö.Ä. hat, kann gern einen *Pull request* öffnen.
 
+[Vorschau](Main.pdf)
+
 # Verwendung
 1. `git clone https://github.com/TimmePfeife/BA-Glauchau-LaTeX-Vorlage.git`
 2. Einstellungen in `Metadaten.tex` anpassen
