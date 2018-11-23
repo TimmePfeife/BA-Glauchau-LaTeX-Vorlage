@@ -13,7 +13,7 @@ Wer Verbesserungsvorschlöge ö.Ä. hat, kann gern einen *Pull request* öffnen.
 3. Arbeit mit Inhalt füllen
 4. `Main.tex` kompilieren
 
-*Hinweis:* Für das Syntax-Highlighting der Quellcodebeispiele wird das LaTeX-Paket [minted](https://ctan.org/pkg/minted?lang=de) verwendet. Dieses benötigt Python 2.7 oder neuer und die Python-Bibliothek *Pygments*. *Pygments* kann mit den folgenden Befehlen installiert werden:
+*Hinweis:* Für das Syntax-Highlighting der Quellcodebeispiele wird das LaTeX-Paket [minted](https://ctan.org/pkg/minted?lang=de) verwendet. Dieses benötigt Python 2.7 oder neuer und die Python-Bibliothek [Pygments](http://pygments.org/). Pygments kann mit den folgenden Befehlen installiert werden:
 
 - `sudo easy_install Pygments`
 - `pip install Pygments` (Windows)
