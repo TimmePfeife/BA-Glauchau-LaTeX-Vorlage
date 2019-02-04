@@ -18,11 +18,11 @@ Wer Verbesserungsvorschlöge ö.Ä. hat, kann gern einen *Pull request* öffnen.
 - `sudo easy_install Pygments`
 - `pip install Pygments` (Windows)
 
-Außerdem muss eine die Option `--shell-escape` beim Kompilieren mit angegeben werden, z.B.:
+Außerdem muss die Option `--shell-escape` beim Kompilieren mit angegeben werden, z.B.:
 
 `pdflatex.exe -synctex=1 --shell-escape  -interaction=nonstopmode %.tex`
 
 # Tipps
 - [TeXstudio](https://www.texstudio.org/) hat sich bisher als bester Editor bewiesen
 - [LaTeX git-workflow](https://stackoverflow.com/a/6190412/6671811)
-- Das Literaturverzeichnis lässt sich am besen mit [Citavi](https://www.citavi.com/de) erstellen und dann nach Bibtex exportieren
+- Das Literaturverzeichnis lässt sich am besten mit [Citavi](https://www.citavi.com/de) erstellen und dann nach Bibtex exportieren
